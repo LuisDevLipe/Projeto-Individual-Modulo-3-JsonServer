@@ -1,9 +1,38 @@
 {
-    "notas":[
+    "Clientes":[
         {
             "id":1,
-            "titulo":"Estudar JS",
-            "status": true
+            "Nome":"João das Neves",
+            "servico_id":1,
+            "data_de_emissão":"01/01/2022",
+            "previsao_de_entrega":"08/01/2022"
+        },
+        {
+            "id":2,
+            "Nome":"Branca de Neves",
+            "servico_id":2,
+            "data_de_emissão":"01/01/2022",
+            "previsao_de_entrega":"08/01/2022"
+        },
+        {
+            "id":3,
+            "Nome":"Aécio das Neves",
+            "servico_id":3,
+            "data_de_emissão":"02/02/2022",
+            "previsao_de_entrega":"08/02/2022"
+        }
+    ],
+    "servico_id":[
+        {   "id":1,
+            "categoria":"modal_rapido"
+        },
+        {
+            "id":2,
+            "categoria":"modal_lento"
+        },
+        {
+            "id":3,
+            "categoria":"correspodencia"
         }
     ]
 }
