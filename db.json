@@ -3,26 +3,26 @@
         {
             "id":1,
             "Nome":"João das Neves",
-            "servico_id":1,
+            "servicoId":1,
             "data_de_emissão":"01/01/2022",
             "previsao_de_entrega":"08/01/2022"
         },
         {
             "id":2,
             "Nome":"Branca de Neves",
-            "servico_id":2,
+            "servicoId":2,
             "data_de_emissão":"01/01/2022",
             "previsao_de_entrega":"08/01/2022"
         },
         {
             "id":3,
             "Nome":"Aécio das Neves",
-            "servico_id":3,
+            "servicoId":3,
             "data_de_emissão":"02/02/2022",
             "previsao_de_entrega":"08/02/2022"
         }
     ],
-    "servico_id":[
+    "servico":[
         {   "id":1,
             "categoria":"modal_rapido"
         },
