@@ -1,38 +1,176 @@
 {
-    "Clientes":[
-        {
-            "id":1,
-            "Nome":"João das Neves",
-            "servicoId":1,
-            "data_de_emissão":"01/01/2022",
-            "previsao_de_entrega":"08/01/2022"
-        },
-        {
-            "id":2,
-            "Nome":"Branca de Neves",
-            "servicoId":2,
-            "data_de_emissão":"01/01/2022",
-            "previsao_de_entrega":"08/01/2022"
-        },
-        {
-            "id":3,
-            "Nome":"Aécio das Neves",
-            "servicoId":3,
-            "data_de_emissão":"02/02/2022",
-            "previsao_de_entrega":"08/02/2022"
-        }
+    "veiculos": [
+      {
+        "veiculo_id": 0,
+        "tipo": "Carro"
+      },
+      {
+        "veiculo_id": 1,
+        "tipo": "Caminhão"
+      },
+      {
+        "veiculo_id": 2,
+        "tipo": "SUV"
+      },
+      {
+        "veiculo_id": 3,
+        "tipo": "Moto"
+      }
     ],
-    "servico":[
-        {   "id":1,
-            "categoria":"modal_rapido"
-        },
-        {
-            "id":2,
-            "categoria":"modal_lento"
-        },
-        {
-            "id":3,
-            "categoria":"correspodencia"
-        }
+    "Carros": [
+      {
+        "id": 0,
+        "marca": "Chevrolet",
+        "modelo": "Corsa",
+        "estilo": "Sedan",
+        "ano": 2019,
+        "estado": "usado",
+        "preco": 20000,
+        "veiculo_id": 0
+      },
+      {
+        "id": 1,
+        "marca": "Chevrolet",
+        "modelo": "Corsa",
+        "estilo": "Hatchback",
+        "ano": 2018,
+        "estado": "novo",
+        "preco": 30000,
+        "veiculo_id": 0
+      },
+      {
+        "id": 2,
+        "marca": "Wolkswagen",
+        "modelo": "Gol",
+        "estilo": "Hatchback",
+        "ano": 2012,
+        "estado": "usado",
+        "preco": 11000,
+        "veiculo_id": 0
+      },
+      {
+        "id": 3,
+        "marca": "Nissan",
+        "modelo": "Versa",
+        "estilo": "Sedan",
+        "ano": 2023,
+        "estado": "novo",
+        "preco": 101330,
+        "veiculo_id": 0
+      }
+    ],
+    "Caminhoes": [
+      {
+        "id": 0,
+        "marca": "VOLVO",
+        "modelo": "FH 540cv",
+        "ano": 2022,
+        "estado": "novo",
+        "preco": 930000,
+        "veiculo_id": 1
+      },
+      {
+        "id": 1,
+        "marca": "DAF",
+        "modelo": "XF",
+        "ano": 2022,
+        "estado": "novo",
+        "preco": 632491,
+        "veiculo_id": 1
+      },
+      {
+        "id": 2,
+        "marca": "VOLVO",
+        "modelo": "FH 460",
+        "ano": 2022,
+        "estado": "novo",
+        "preco": 770000,
+        "veiculo_id": 1
+      },
+      {
+        "id": 3,
+        "marca": "Scania",
+        "modelo": "R450",
+        "ano": 2022,
+        "estado": "novo",
+        "preco": 675655,
+        "veiculo_id": 1
+      }
+    ],
+    "SUV's": [
+      {
+        "id": 0,
+        "marca": "Toyota",
+        "modelo": "CR-V",
+        "ano": 2010,
+        "estado": "usado",
+        "preco": 35282,
+        "veiculo_id": 2
+      },
+      {
+        "id": 1,
+        "marca": "Honda",
+        "modelo": "CR-V",
+        "ano": 2010,
+        "estado": "usado",
+        "preco": 35282,
+        "veiculo_id": 2
+      },
+      {
+        "id": 2,
+        "marca": "Renault",
+        "modelo": "Duster",
+        "ano": 2013,
+        "estado": "novo",
+        "preco": 58990,
+        "veiculo_id": 2
+      },
+      {
+        "id": 3,
+        "marca": "Mitsubishi",
+        "modelo": "ASX",
+        "ano": 2011,
+        "estado": "usado",
+        "preco": 58990,
+        "veiculo_id": 2
+      }
+    ],
+    "Motos": [
+      {
+        "id": 0,
+        "marca": "Honda",
+        "modelo": "CG 160 Fan Flex",
+        "ano": 2022,
+        "estado": "usado",
+        "preco": 16012,
+        "veiculo_id": 3
+      },
+      {
+        "id": 1,
+        "marca": "Honda",
+        "modelo": "Biz 110i",
+        "ano": 2023,
+        "estado": "novo",
+        "preco": 12885,
+        "veiculo_id": 3
+      },
+      {
+        "id": 2,
+        "marca": "Honda",
+        "modelo": "nxr 160 Bros",
+        "ano": 2017,
+        "estado": "novo",
+        "preco": 15419,
+        "veiculo_id": 3
+      },
+      {
+        "id": 3,
+        "marca": "Yamaha",
+        "modelo": "XTZ 150",
+        "ano": 2014,
+        "estado": "novo",
+        "preco": 10782,
+        "veiculo_id": 3
+      }
     ]
-}
+  }
