@@ -26,6 +26,7 @@
         "ano": 2019,
         "estado": "usado",
         "preco": 20000,
+        "imgs" : "../assets/imgs/Chev-Corsa-2019_vermelho.jpg",
         "veiculo_id": 0
       },
       {
